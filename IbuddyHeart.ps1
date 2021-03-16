@@ -4,7 +4,7 @@
 exit
 }
 
-[string]$buddydllPath = 'C:\Users\chris\OneDrive\Documents\NeoPowershell\Resources\ibuddylib.dll'
+[string]$buddydllPath = '..\Resources\ibuddylib.dll'
 
 if (Test-Path $buddydllPath)
 {
